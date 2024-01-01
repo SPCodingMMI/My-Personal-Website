@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+nav ul{
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: black;
+    transition: .3s ease-in
+}
+
+nav li{
+    display: inline-block;
+}
