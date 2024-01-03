@@ -51,8 +51,116 @@ nav li{
     border-color: lightgreen;
     border-radius: 10px;
     height: 160px; width: 700px;
-    margin: 50px auto;
+    margin: 20px auto;
     background-color:rgb(55, 55, 55);
     color: white;
     font-family: myFont;
+}
+
+.youtube{
+    display: contents;
+}
+
+.youtube div{
+    border-style: groove;
+    text-align: center;
+    border-width: thick;
+    border-color: lightgreen;
+    border-radius: 10px;
+    height: 50px; width: 400px;
+    margin: 20px auto;
+    background-color:rgb(55, 55, 55);
+    color: white;
+    font-family: myFont;
+}
+
+.youtube div p::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background:url("images/youtubelogo.png") no-repeat;
+    background-size: contain;
+    vertical-align: -8px
+}
+
+.twitter{
+    display: contents;
+}
+
+.twitter div{
+    border-style: groove;
+    text-align: center;
+    border-width: thick;
+    border-color: lightgreen;
+    border-radius: 10px;
+    height: 50px; width: 400px;
+    margin: 20px auto;
+    background-color:rgb(55, 55, 55);
+    color: white;
+    font-family: myFont;
+}
+
+.twitter div p::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background:url("images/twitterlogo.png") no-repeat;
+    background-size: contain;
+    vertical-align: -8px
+}
+
+.github{
+    display: contents;
+}
+
+.github div{
+    border-style: groove;
+    text-align: center;
+    border-width: thick;
+    border-color: lightgreen;
+    border-radius: 10px;
+    height: 50px; width: 400px;
+    margin: 20px auto;
+    background-color:rgb(55, 55, 55);
+    color: white;
+    font-family: myFont;
+}
+
+.github div p::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background:url("images/githublogo.png") no-repeat;
+    background-size: contain;
+    vertical-align: -6px
+}
+
+.twitch{
+    display: contents;
+}
+
+.twitch div{
+    border-style: groove;
+    text-align: center;
+    border-width: thick;
+    border-color: lightgreen;
+    border-radius: 10px;
+    height: 50px; width: 400px;
+    margin: 20px auto;
+    background-color:rgb(55, 55, 55);
+    color: white;
+    font-family: myFont;
+}
+
+.twitch div p::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background:url("images/twitch.png") no-repeat;
+    background-size: contain;
+    vertical-align: -8px
 }
