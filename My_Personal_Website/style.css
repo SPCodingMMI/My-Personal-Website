@@ -1,3 +1,7 @@
+html{
+    font-family: myFont;
+}
+
 body{
     background-color: gray;
     margin: 0px;
@@ -33,4 +37,22 @@ nav a:hover{
 
 nav li{
     display: inline-block;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(paperplane.ttf);
+}
+
+.aboutme{
+    border-style: groove;
+    text-align: center;
+    border-width: thick;
+    border-color: lightgreen;
+    border-radius: 10px;
+    height: 160px; width: 700px;
+    margin: 50px auto;
+    background-color:rgb(55, 55, 55);
+    color: white;
+    font-family: myFont;
 }
